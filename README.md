@@ -13,30 +13,18 @@ in the open.
 npx skills add <owner>/<repo>
 ```
 
-Installs every skill in this repo. To install a single skill instead:
+Discovers every skill in the repo, then lets you choose which skills and
+which agents to install to. To install a specific skill non-interactively:
 
 ```bash
-npx skills add <owner>/<repo>/<skill-name>
+npx skills add <owner>/<repo> --skill <skill-name>
 ```
 
 ## Skills
 
 | Skill | What it does |
 | --- | --- |
-| [project-tidy](skills/project-tidy/SKILL.md) | Tidy a project directory: regroup files into standard folders, normalize naming, clean up dead files, produce a structure overview. Edge work only — never touches source code. |
-
-## Layout
-
-```
-repo/
-└── skills/
-    └── <skill-name>/
-        └── SKILL.md
-```
-
-Each skill is a folder under `skills/` holding its own `SKILL.md` plus
-optional `references/`. This follows the [skills.sh](https://skills.sh)
-standard, so the pack stays installable through `npx skills add`.
+| [project-tidy](project-tidy/SKILL.md) | Tidy a project directory: regroup files into standard folders, normalize naming, clean up dead files, produce a structure overview. Edge work only — never touches source code. |
 
 ## Contribute
 
