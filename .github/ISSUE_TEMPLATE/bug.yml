@@ -1,0 +1,67 @@
+name: Bug
+description: Report a defect in a skill with steps to reproduce.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please search existing issues first.
+  - type: input
+    id: version
+    attributes:
+      label: Skill version / commit
+      description: Release tag or commit SHA of this repository.
+      placeholder: main@c17b8dd
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      description: Which agent did you use?
+      options:
+        - Claude Code
+        - Cursor
+        - Codex
+        - Gemini
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS and Node.js version.
+      placeholder: Linux, Node.js 22.20
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      render: shell
+    validations:
+      required: false

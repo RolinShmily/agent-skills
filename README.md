@@ -1,23 +1,27 @@
 # Agent Skills
 
-**[English](README.md) | [中文](README_zh-CN.md)**
+**[English](README.md) | [中文](README.zh-CN.md)**
 
 A personal, agent-agnostic collection of skills. Most are procedural SOPs
 (standard operating procedures) that work the same across AI agents —
-Claude Code, Cursor, Codex, Gem‑ini, etc. Built for self-use first, shared
+Claude Code, Cursor, Codex, Gemini, etc. Built for self-use first, shared
 in the open.
+
+## What you need
+
+- Node.js 22.20 or later (includes `npx`)
 
 ## Install
 
 ```bash
-npx skills add <owner>/<repo>
+npx skills add RolinShmily/agent-skills
 ```
 
 Discovers every skill in the repo, then lets you choose which skills and
 which agents to install to. To install a specific skill non-interactively:
 
 ```bash
-npx skills add <owner>/<repo> --skill <skill-name>
+npx skills add RolinShmily/agent-skills --skill <skill-name>
 ```
 
 ## Skills
@@ -29,4 +33,9 @@ npx skills add <owner>/<repo> --skill <skill-name>
 ## Contribute
 
 These are personal skills for daily agent workflows — install, fork, or
-send a PR. Feedback welcome.
+send a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for the skill format and
+PR checklist. Feedback welcome.
+
+## License
+
+[MIT](LICENSE)
