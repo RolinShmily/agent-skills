@@ -1,5 +1,7 @@
 # Agent Skills
 
+**[English](README.md) | [中文](README_zh-CN.md)**
+
 个人维护、跨 agent 通用的 skills 集合。大部分是标准作业流程(SOP),在
 Claude Code、Cursor、Codex、Gemini 等不同 agent 之间行为一致。以自用为主,开放共享。
 

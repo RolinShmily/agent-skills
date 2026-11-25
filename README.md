@@ -1,5 +1,7 @@
 # Agent Skills
 
+**[English](README.md) | [中文](README_zh-CN.md)**
+
 A personal, agent-agnostic collection of skills. Most are procedural SOPs
 (standard operating procedures) that work the same across AI agents —
 Claude Code, Cursor, Codex, Gem‑ini, etc. Built for self-use first, shared
