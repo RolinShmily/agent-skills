@@ -22,7 +22,7 @@ npx skills add <owner>/<repo> --skill <skill-name>
 
 | Skill | 用途 |
 | --- | --- |
-| [project-tidy](project-tidy/SKILL.md) | 整理项目目录:散落文件归入标准结构、统一命名规范、清理无用文件、生成结构说明。只处理源码核心之外的边缘工作,不碰源代码。 |
+| [repo-steward](repo-steward/SKILL.md) | 持久维护并标准化项目的边缘资产:文档层、测试样例、CI workflows、双语 README、CHANGELOG、LICENSE/第三方声明与根目录 dotfiles。通过 AGENTS.md 记录维护钩子,不碰源代码。 |
 
 ## 贡献
 

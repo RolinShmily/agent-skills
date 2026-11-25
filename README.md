@@ -24,7 +24,7 @@ npx skills add <owner>/<repo> --skill <skill-name>
 
 | Skill | What it does |
 | --- | --- |
-| [project-tidy](project-tidy/SKILL.md) | Tidy a project directory: regroup files into standard folders, normalize naming, clean up dead files, produce a structure overview. Edge work only — never touches source code. |
+| [repo-steward](repo-steward/SKILL.md) | Persistently maintain and standardize a project's edge assets: docs set, test samples, CI workflows, bilingual README, changelog, license/notices, and root dotfiles. Records maintenance hooks in AGENTS.md; never touches source code. |
 
 ## Contribute
 
